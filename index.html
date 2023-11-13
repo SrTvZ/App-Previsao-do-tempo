@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Previsao do tempo</title>
+</head>
+
+<body>
+  <video class="video" autoplay loop muted>
+    <source id="video-source" src="./video/waves_-_22183 (Original).mp4" type="video/mp4">
+  </video>
+
+  <div class="caixa-maior">
+    <input class="input-cidade" placeholder="Cidade">
+    <button class="botao-busca" onclick="cliqueiNoBotao()">
+      <img class="img-busca" src="/img/lupa.svg" alt="busca">
+    </button>
+    <div class="caixa-media">
+      <h2 class="cidade">sao paulo</h2>
+
+      <p class="temp">21c</p>
+
+      <div class="caixa-menor">
+        <img class="img-previsao" src="https://openweathermap.org/img/wn/04n.png">
+        <p class="texto-previsao">nublado</p>
+      </div>
+      <div class="caixa-menor-umidade">
+        <p class="umidade">umidade</p>
+        <img class="img-umidade" src="img/umidade.png">
+      </div>
+
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
