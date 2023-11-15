@@ -51,8 +51,6 @@ body {
 }
 
 .botao-busca {
-  position: fixed;
-  margin-left: 20px;
   border: none;
   outline: none;
   padding: 10px;
